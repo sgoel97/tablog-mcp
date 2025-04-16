@@ -36,7 +36,7 @@ To run this server locally for development or testing:
 
 3.  **Run the server in development mode:**
     ```bash
-    uv run mcp dev python src/server.py
+    uv run mcp dev src/server.py
     ```
 
 The server will start alongside the MCP Inspector, which can then be used for testing.
