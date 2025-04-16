@@ -4,7 +4,7 @@ This server allows your LLM to search for restaurants in [Tablog](https://tabelo
 
 Right now, the server is only able to search for restaurants, given the cuisine and location in Tokyo, and can filter by the maximum cost in Yen. There are a lot more filters that can be added!
 
-Example prompts:
+**Example prompts:**
 
 ```text
 Give me a list of izakayas in Kichijoji with great local reviews, max 3000 yen.
