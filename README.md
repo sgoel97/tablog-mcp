@@ -2,7 +2,19 @@
 
 This server allows your LLM to search for restaurants in [Tablog](https://tabelog.com/en/rstLst/), a website that is used locally in Japan to rate restaurants and often works better than Google Maps for planning which restaurants to visit in Japan!
 
-Right now the server is only able to search for restaurants given a cuisine and a location in Tokyo, and can filter by max cost in Yen. There are a lot more filters that can be added!
+Right now, the server is only able to search for restaurants, given the cuisine and location in Tokyo, and can filter by the maximum cost in Yen. There are a lot more filters that can be added!
+
+Example prompts:
+
+```text
+Give me a list of izakayas in Kichijoji with great local reviews, max 3000 yen.
+
+Any good vegan or vegetarian restaurants around Harajuku? 
+
+What’s a cheap but popular curry spot in Akihabara?
+
+Where should I eat okonomiyaki in Tokyo? Ideally under 2500 yen.
+```
 
 ## Running Locally
 
